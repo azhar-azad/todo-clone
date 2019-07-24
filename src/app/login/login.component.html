@@ -1,0 +1,22 @@
+<div class="container">
+  <fieldset>
+    <legend>Login</legend>
+    <form>
+      <table>
+        <tr>
+          <td>Username: </td>
+          <td><input type="text" name="username" [(ngModel)]="username"></td>
+        </tr>
+
+        <tr>
+          <td>Password: </td>
+          <td><input type="password" name="password" [(ngModel)]="password"></td>
+        </tr>
+
+        <tr>
+          <td><button class="btn btn-success" (click)="handleLogin()">Login</button></td>
+        </tr>
+      </table>
+    </form>
+  </fieldset>
+</div>
