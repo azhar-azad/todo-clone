@@ -1,4 +1,7 @@
 <div class="container">
+  <div *ngIf="isLoggedIn" class="alert alert-warning">
+    {{invalidCredentialMsg}}
+  </div>
   <fieldset>
     <legend>Login</legend>
     <form>
